@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "suksit dot com"
+theme = "hello-friend-ng"
+paginate = 10
+
+[params]
+  defaultTheme = "dark"
+
+[params.logo]
+  logoText     = "cd /root"
+
+[[menu.main]]
+  identifier = "posts"
+  name       = "Posts"
+  url        = "/posts"
+  weight     = 1
+
+[[menu.main]]
+  identifier = "about"
+  name       = "About"
+  url        = "/about"
+  weight     = 2
+
+[[params.social]]
+  name = "twitter"
+  url  = "https://twitter.com/suksit"
+
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/suksit"
+
+[[params.social]]
+  name = "facebook"
+  url  = "https://www.facebook.com/suksit"
+
+[[params.social]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/suksit"
+
+[markup.goldmark.renderer]
+  unsafe= true
