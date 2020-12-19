@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://suksit.com/"
 languageCode = "en-us"
 title = "suksit dot com"
 theme = "hello-friend-ng"
