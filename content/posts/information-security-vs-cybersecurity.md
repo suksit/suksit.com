@@ -10,13 +10,13 @@ tags: ["cybersecurity", "information security", "rant"]
 
 <img src="/img/information-security-vs-cybersecurity/my-venn-diagram.png" alt="My Venn Diagram" style="margin: 0 auto;">
 
-Cybersecurity ในนิยามของผมคือ information security ของ traditional IT บวกกับ OT security ที่เกี่ยวข้องกับ physical process ไม่ว่าจะเป็นระบบ ICS หรือ IoT ทุกอย่างรวมอยู่ภายใต้คำว่า cybersecurity แต่อยู่นอก information security
+Cybersecurity ในนิยามของผมคือ Information Security ของ traditional IT บวกกับ OT security ที่เกี่ยวข้องกับ physical process ไม่ว่าจะเป็นระบบ ICS/SCADA หรือ IoT ทุกอย่างรวมอยู่ภายใต้คำว่า cybersecurity แต่เป็นส่วนที่อยู่นอก information security
 
-แต่สำหรับทีม IT มันเป็นแบบนี้
+สำหรับทีม IT มันเป็นแบบนี้
 
 <img src="/img/information-security-vs-cybersecurity/their-venn-diagram.png" alt="Their Venn Diagram" style="margin: 0 auto;">
 
-คือเค้ามองว่า Cybersecurity เป็น subset ของ information security เพราะคำว่า "cyber" คือส่วนที่เป็นข้อมูล digital หรือการทำงานผ่านเน็ตเวิร์กเท่านั้น แต่นิยาม "information" จะหมายรวมถึงข้อมูลทั้งที่เป็น digital และ analog รวมไปถึงทรัพยากรอื่นๆ เช่น process และ people ด้วย
+ในนิยามของเค้า Cybersecurity เป็น subset ของ Information Security เพราะคำว่า "cyber" คือส่วนที่เป็นข้อมูล digital หรือการทำงานผ่านเน็ตเวิร์กเท่านั้น แต่คำว่า "information" จะหมายรวมถึงสารสนเทศทั้งที่เป็น digital และ analog รวมไปถึงทรัพยากรอื่นๆ เช่น process และ people ด้วย
 
 ลอง Google ดูก็พบนิยาม/การเปรียบเทียบที่น่าสนใจในหลายเว็บ แต่มีอยู่ไอเดียนึงที่ผมไม่เคยนึกถึงเลยก็คือ จริงๆ แล้วมันอาจจะเป็นสิ่งที่ intersect กันแบบนี้ก็ได้
 
