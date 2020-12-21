@@ -8,19 +8,19 @@ tags: ["cybersecurity", "information security", "rant"]
 
 สำหรับผมมันเป็นแบบนี้
 
-![My Venn Diagram](/img/information-security-vs-cybersecurity/my-venn-diagram.png)
+<img src="/img/information-security-vs-cybersecurity/my-venn-diagram.png" alt="My Venn Diagram" style="margin: 0 auto;">
 
 Cybersecurity ในนิยามของผมคือ information security ของ traditional IT บวกกับ OT security ที่เกี่ยวข้องกับ physical process ไม่ว่าจะเป็นระบบ ICS หรือ IoT ทุกอย่างรวมอยู่ภายใต้คำว่า cybersecurity แต่อยู่นอก information security
 
-แต่ในขณะเดียวกัน ทีม IT มองว่าเป็นแบบนี้
+แต่สำหรับทีม IT มันเป็นแบบนี้
 
-![Their Venn Diagram](/img/information-security-vs-cybersecurity/their-venn-diagram.png)
+<img src="/img/information-security-vs-cybersecurity/their-venn-diagram.png" alt="Their Venn Diagram" style="margin: 0 auto;">
 
 คือเค้ามองว่า Cybersecurity เป็น subset ของ information security เพราะคำว่า "cyber" คือส่วนที่เป็นข้อมูล digital หรือการทำงานผ่านเน็ตเวิร์กเท่านั้น แต่นิยาม "information" จะหมายรวมถึงข้อมูลทั้งที่เป็น digital และ analog รวมไปถึงทรัพยากรอื่นๆ เช่น process และ people ด้วย
 
-ลอง Google ดูก็พบข้อมูลน่าสนใจในหลายเว็บ แต่มีอยู่ไอเดียนึงที่ผมไม่เคยนึกถึงเลยก็คือ จริงๆ แล้วมันอาจจะเป็นสิ่งที่ intersect กันแบบนี้ก็ได้
+ลอง Google ดูก็พบนิยาม/การเปรียบเทียบที่น่าสนใจในหลายเว็บ แต่มีอยู่ไอเดียนึงที่ผมไม่เคยนึกถึงเลยก็คือ จริงๆ แล้วมันอาจจะเป็นสิ่งที่ intersect กันแบบนี้ก็ได้
 
-![Other's Venn Diagram](/img/information-security-vs-cybersecurity/others-venn-diagram.png)
+<img src="/img/information-security-vs-cybersecurity/others-venn-diagram.png" alt="Other's Venn Diagram" style="margin: 0 auto;">
 
 ที่มา: [Understanding difference between Cyber Security & Information Security - CISO Platform](https://www.cisoplatform.com/profiles/blogs/understanding-difference-between-cyber-security-information)
 
