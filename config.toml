@@ -5,7 +5,7 @@ theme = "hello-friend-ng"
 paginate = 10
 
 [params]
-  defaultTheme = "dark"
+  homeSubtitle = "Rant / Code / Note / Thought"
 
 [params.logo]
   logoText     = "cd /root"
