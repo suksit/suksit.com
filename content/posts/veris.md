@@ -21,13 +21,11 @@ David เล่าว่าได้ research ข้อมูลแล้วก�
 
 แต่ละหัวข้อก็จะมี field ให้ drilldown ลงไปเวลาจะบันทึกข้อมูล เช่น
 
-```
-Action.Social.Variety = Phishing
-Action.Social.Vector = Email
-Action.Social.Target = HR
-Asset.Variety.Notes = WS01, Molly (User)
-Actor.External = True
-```
+`Action.Social.Variety = Phishing`  
+`Action.Social.Vector = Email`  
+`Action.Social.Target = HR`  
+`Asset.Variety.Notes = WS01, Molly (User)`  
+`Actor.External = True`
 
 และเราสามารถ extend VERIS ด้วย "Plus" fields ได้ เช่น `Plus.Malware.Family = Qbot` หรือเอาไปโยงกับ MITRE ATT&CK เป็น `Plus.MITRE.TA0002 = Visual Basic` อะไรทำนองนี้
 
