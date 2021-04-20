@@ -6,9 +6,12 @@ paginate = 10
 
 [params]
   homeSubtitle = "Rant / Code / Note / Thought"
+  enableThemeToggle = true
+  customCSS = ["/css/custom.css"]
 
 [params.logo]
-  logoText     = "cd /root"
+  logoMark   = "$"
+  logoText   = "cd /root"
 
 [[menu.main]]
   identifier = "posts"
