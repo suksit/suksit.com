@@ -1,8 +1,12 @@
 baseURL = "https://suksit.com/"
 languageCode = "en-us"
-title = "Suksit Sripitchayaphan"
+title = "suksit dot com"
 theme = "hello-friend-ng"
 paginate = 10
+copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">CC BY-SA 4.0</a>"
+
+[author]
+  name = "Suksit Sripitchayaphan"
 
 [params]
   homeSubtitle = "Rant / Code / Note / Thought"
@@ -38,8 +42,21 @@ paginate = 10
   url  = "https://www.facebook.com/suksit"
 
 [[params.social]]
+  name = "instagram"
+  url  = "https://www.instagram.com/suks1t"
+
+[[params.social]]
   name = "linkedin"
   url  = "https://www.linkedin.com/in/suksit"
+
+[params.footer]
+  trademark = true
+  rss = true
+  copyright = true
+  author = true
+
+  topText = []
+  bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
 
 [markup.goldmark.renderer]
   unsafe= true
