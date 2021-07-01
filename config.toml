@@ -38,16 +38,12 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
   url  = "https://github.com/suksit"
 
 [[params.social]]
-  name = "facebook"
-  url  = "https://www.facebook.com/suksit"
-
-[[params.social]]
-  name = "instagram"
-  url  = "https://www.instagram.com/suks1t"
-
-[[params.social]]
   name = "linkedin"
   url  = "https://www.linkedin.com/in/suksit"
+
+[[params.social]]
+  name = "tryhackme"
+  url  = "https://tryhackme.com/p/suksit"
 
 [params.footer]
   trademark = true
