@@ -4,7 +4,7 @@ date: 2017-08-04T21:14:54+07:00
 tags: [ "cybersecurity", "aprigf2017", "workshop", "rant", "apnic" ]
 ---
 
-เกิดมาเพิ่งจะมีโอกาส go inter กับเค้าบ้างก็วันนี้ 😎 เพราะ APNIC ได้แปล[บล็อกที่ผมเขียนถึง workshop ในงาน APrIGF 2017](/post/aprigf-bangkok-2017-cybersecurity-incident-role-play/) เป็นภาษาอังกฤษ และโพสต์ไว้ที่ [APrIGF 2017, Bangkok: Cybersecurity Incident Role Play](https://blog.apnic.net/2017/08/04/aprigf-2017-bangkok-cybersecurity-incident-role-play/)
+เกิดมาเพิ่งจะมีโอกาส go inter กับเค้าบ้างก็วันนี้ 😎 เพราะ APNIC ได้แปล[บล็อกที่ผมเขียนถึง workshop ในงาน APrIGF 2017](/posts/aprigf-bangkok-2017-cybersecurity-incident-role-play/) เป็นภาษาอังกฤษ และโพสต์ไว้ที่ [APrIGF 2017, Bangkok: Cybersecurity Incident Role Play](https://blog.apnic.net/2017/08/04/aprigf-2017-bangkok-cybersecurity-incident-role-play/)
 
 {{< tweet 893271517995446273 >}}
 
