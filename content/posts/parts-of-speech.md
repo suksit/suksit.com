@@ -28,7 +28,7 @@ Anyway, another interesting topic is Microsoft CEO Satya Nadella’s closing rem
 
 > *… With Windows you can consume apps and build apps. You can play games and design games. You can buy a PC and build a PC. You can join your community and create your community. You can buy from a business and start your own business …*
 
-I think Windows 11 strongly reflects Satya’s vision written in his “Hit Refresh” book — that he encouraged Microsoft to be about mobility of human experience. Now I can imagine the ability to work and travel more seamlessly thanks to the newly introduced features in Windows 11 such as docking, multitasking, snap layouts, and snap groups.
+I think Windows 11 strongly reflects Satya’s vision written in his “[Hit Refresh](/posts/hit-refresh)” book — that he encouraged Microsoft to be about mobility of human experience. Now I can imagine the ability to work and travel more seamlessly thanks to the newly introduced features in Windows 11 such as docking, multitasking, snap layouts, and snap groups.
 
 I am really excited to give Windows 11 a try. I also wonder how it will change the way people at PEA work over the next few years.
 
