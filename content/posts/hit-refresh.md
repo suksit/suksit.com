@@ -3,7 +3,7 @@ title: "Hit Refresh"
 date: 2021-05-03T14:59:18+07:00
 toc: false
 images:
-tags: [ "rant", "book", "hit-refresh", "microsoft" ]
+tags: [ "rant", "book", "hit refresh", "microsoft" ]
 ---
 
 เพิ่งอ่านหนังสือ "พลิกธุรกิจด้วยวิถีไมโครซอฟท์" ที่แปลมาจาก "Hit Refresh" ของ Satya Nadella จบ ต้นฉบับวางจำหน่ายเมื่อปี 2017 ส่วนฉบับแปลไทยโดยสำนักพิมพ์วีเลิร์นออกมาตั้งแต่ปี 2018 (อ่านช้าไปหลายปี 555+) 

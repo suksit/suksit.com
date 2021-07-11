@@ -3,7 +3,7 @@ title: "Work Rules!"
 date: 2021-07-11T21:06:27+07:00
 toc: false
 images:
-tags: [ "rant", "book", "work rules", "google", "human resource" ]
+tags: [ "rant", "book", "work rules", "google" ]
 ---
 
 อ่านหนังสือเรื่อง "กฎการทำงานของ Google" ที่เขียนโดย Laszlo Bock และแปลโดยสำนักพิมพ์วีเลิร์น จบไปได้ประมาณ 1 สัปดาห์แล้ว เลยอยากบันทึกไว้หน่อย
