@@ -30,7 +30,7 @@ Get-Help Get-WindowsUpdate -Full
 Get-WindowsUpdate -Install -WindowsUpdate -Category 'Definition Updates' -AcceptAll
 ```
 
-ที่เหลือก็แค่สร้าง batch file ที่จะรันคำสั่งข้างบน หน้าตาก็ประมาณนี้ อันนี้ผมใช้ [PowerShell](https://github.com/PowerShell/PowerShell) ตัวใหม่ ถ้าใช้ Windows PowerShell ธรรมดา ก็เปลี่ยน `pwsh` เป็น `powershell` แทน 🙃
+ที่เหลือก็แค่สร้าง batch file ที่จะรันคำสั่งข้างบน อันนี้ผมใช้ [PowerShell](https://github.com/PowerShell/PowerShell) ตัวใหม่ ถ้าใช้ Windows PowerShell ธรรมดา ก็เปลี่ยน `pwsh` เป็น `powershell` แทน 🙃
 
 ```cmd
 @echo off
