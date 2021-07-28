@@ -13,6 +13,9 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
   enableThemeToggle = true
   customCSS = ["/css/custom.css"]
 
+[params.portrait]
+  path = "/img/avatar.png"
+
 [params.logo]
   logoMark   = "$"
   logoText   = "cd /root"
