@@ -8,7 +8,7 @@ tags: [ "rant", "cybersecurity", "generalist", "duck", "book" ]
 
 ช่วงนี้กำลังอ่านหนังสือ "วิถีผู้ชนะฉบับคนเก่งแบบเป็ด" ที่แปลมาจากหนังสือ "How to be Better at (Almost) Everything" ของ Pat Flynn
 
-{{< figure src="/img/cybersecurity-duck/book-cover.jpg" attr="หนังสือ วิถีผู้ชนะฉบับคนเก่งแบบเป็ด" >}}
+{{<image src="/img/cybersecurity-duck/book-cover.jpg" alt="หนังสือ วิถีผู้ชนะฉบับคนเก่งแบบเป็ด" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em; width: 50%;">}}
 
 แนวคิดหลักของหนังสือเล่มนี้คือ การเป็นคนเก่งกว้าง ที่ทำหลายๆ อย่างได้ดี โดยไม่จำเป็นต้องมีทักษะไหนที่เชี่ยวชาญแบบสุดๆ ก็ได้ ถ้าให้สรุปใจความสำคัญก็น่าจะเป็น Skill Stacking > Specialization และ Breadth > Depth of Skill
 
