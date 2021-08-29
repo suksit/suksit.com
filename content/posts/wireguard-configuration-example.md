@@ -7,11 +7,11 @@ tags: [ "wireguard" ]
 
 ช่วงนี้ลองทำ VPN ด้วย [Wireguard](https://www.wireguard.com/) แทน OpenVPN แต่มีปัญหาตอน config เป็นประจำ อารมณ์เหมือนงงๆ จำไม่ได้ว่าต้องทำอะไรบ้าง เลยมาจดไว้หน่อย วันหลังจะได้ก๊อปแปะ 🙄
 
-สมมติว่าวง network ที่เราต้องการใช้คือ 10.0.0.0/24 และ network interface ที่ต่อกับอินเทอร์เน็ตของเซิร์ฟเวอร์คือ `eth0`
+สมมติว่าวง network ที่เราต้องการใช้คือ 10.0.0.0/24 และ interface ของเซิร์ฟเวอร์ที่ต่อกับ Internet คือ `eth0`
 
 ### Server Wireguard Config
 
-```
+``` ini
 [Interface]
 Address = 10.0.0.1/24
 ListenPort = 51820
@@ -20,7 +20,7 @@ PrivateKey = <SERVER_PRIVATE_KEY>
 # required UP rules
 PostUp = iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o eth0 -j MASQUERADE
 PostUp = iptables -A INPUT -i %i -j ACCEPT
-# additional UP rules when using UFW
+# additional UP rules when using firewall e.g. UFW
 PostUp = iptables -A FORWARD -i eth0 -o %i -j ACCEPT
 PostUp = iptables -A FORWARD -i %i -o eth0 -j ACCEPT
 PostUp = iptables -A INPUT -i eth0 -p udp --dport 51820 -j ACCEPT
@@ -28,7 +28,7 @@ PostUp = iptables -A INPUT -i eth0 -p udp --dport 51820 -j ACCEPT
 # required DOWN rules
 PostDown = iptables -t nat -D POSTROUTING -s 10.0.0.0/24 -o eth0 -j MASQUERADE
 PostDown = iptables -D INPUT -i %i -j ACCEPT
-# additional DOWN rules when using UFW
+# additional DOWN rules when using firewall e.g. UFW
 PostDown = iptables -D FORWARD -i eth0 -o %i -j ACCEPT
 PostDown = iptables -D FORWARD -i %i -o eth0 -j ACCEPT
 PostDown = iptables -D INPUT -i eth0 -p udp --dport 51820 -j ACCEPT
@@ -44,13 +44,13 @@ AllowedIPs = 10.0.0.9/32
 
 ### Server `sysctl.conf`
 
-```
+``` ini
 net.ipv4.ip_forward = 1
 ```
 
 ### Client Wireguard Config
 
-```
+``` ini
 [Interface]
 PrivateKey = <CLIENT_PRIVATE_KEY>
 Address = 10.0.0.8/32
@@ -63,3 +63,5 @@ Endpoint = <SERVER_IP>:51820
 ```
 
 ประมาณนี้ ถ้าไม่มีอะไรผิดพลาด ไคลเอนต์ควรจะ connect และ route traffic ผ่าน Wireguard ไปออกที่ขา Internet ของเซิร์ฟเวอร์ได้
+
+ป.ล. ข้อมูลส่วนใหญ่อ้างอิงมาจาก [nixCraft](https://www.cyberciti.biz/faq/how-to-set-up-wireguard-firewall-rules-in-linux/)

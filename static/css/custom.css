@@ -4,3 +4,8 @@ body {
   font-family: 'Inter UI', Prompt, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
   font-size: 1.125em;
 }
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: .9em;
+}
