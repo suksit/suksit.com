@@ -42,7 +42,7 @@ PublicKey = <ANOTHER_CLIENT_PUBLIC_KEY>
 AllowedIPs = 10.0.0.9/32
 ```
 
-### Server Sysctl.conf
+### Server `sysctl.conf`
 
 ```
 net.ipv4.ip_forward = 1
