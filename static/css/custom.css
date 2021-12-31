@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt:wght@300&display=swap&subset=thai');
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap&subset=thai');
 
 body {
-  font-family: 'Inter UI', Prompt, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
-  font-size: 1.125em;
+  font-family: Inter, Prompt, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
 }
 
 code[class*="language-"],
 pre[class*="language-"] {
   font-size: .9em;
+}
+
+.post-content ul > li {
+  margin-bottom: .5em;
+}
+
+.post-content h2 {
+  margin-top: 1.5em;
 }
