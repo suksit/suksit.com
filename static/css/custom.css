@@ -5,6 +5,10 @@ body {
   font-size: 1.2em;
 }
 
+img.circle {
+  max-width: 180px;
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
   font-size: .9em;
