@@ -22,3 +22,7 @@ pre[class*="language-"] {
 .post-content h2 {
   margin-top: 1.5em;
 }
+
+cite {
+  color: #bbb;
+}
