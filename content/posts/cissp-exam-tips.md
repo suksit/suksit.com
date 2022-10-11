@@ -49,3 +49,10 @@ tags:
 
 ### 9.
 > Don't use practice test score to gauge your readiness, use it to find your weak areas.
+
+### 10.
+> Preparedness isn't just knowing the material, it is:
+> 1. Mindset
+> 2. Understanding of written English
+> 3. Getting your mind in control (anxiety etc.)
+> 4. Test taking skills (which encompass the above)
