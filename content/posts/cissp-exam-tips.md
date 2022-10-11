@@ -9,7 +9,7 @@ tags:
   - rant
 ---
 
-ระหว่างที่[เตรียมตัวเพื่อสอบ CISSP](/posts/cissp-exam-preparation-review) ได้เห็นคำแนะนำหลายๆ อย่างน่าสนใจ เลยเอามารวบรวมไว้ เผื่อใครจะเอาคำแนะนำที่เข้ากับตัวเองไปปรับใช้ได้ครับ 🙂
+ระหว่างที่[เตรียมตัวสอบ CISSP](/posts/cissp-exam-preparation-review) ได้เห็นคำแนะนำหลายๆ อย่าง จากเหล่า CISSP ที่อยู่ใน Certification Station Discord รู้สึกว่าเป็นแนวคิดที่ดีและน่าสนใจ เลยเอามารวบรวมไว้ เผื่อใครจะเอาข้อที่เข้ากับตัวเองไปปรับใช้ได้ครับ 🙂
 
 ### 1.
 > For 95% of questions you will know whether you know it or not. If you do answer it and move on. If you do not, read it once more, take your best guess and move on.
@@ -48,4 +48,4 @@ tags:
 > Remember people, process, technology. In that order.
 
 ### 9.
-> Don't use practice test score to gauge your readiness, instead use it to find your weak areas.
+> Don't use practice test score to gauge your readiness, use it to find your weak areas.
