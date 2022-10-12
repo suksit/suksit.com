@@ -70,10 +70,10 @@ tags:
 
 ### 10.
 > Preparedness isn't just knowing the material, it is:
-> 1. Mindset
-> 2. Understanding of written English
-> 3. Getting your mind in control (anxiety etc.)
-> 4. Test taking skills (which encompass the above)
+> * Mindset
+> * Understanding of written English
+> * Getting your mind in control (anxiety etc.)
+> * Test taking skills (which encompass the above)
 >
 > <cite>&ndash; @DarkHelmet</cite>
 
@@ -81,3 +81,8 @@ tags:
 > To be clear, the exam is NOT a memorization exam. You need to know and understand concepts and be able to synthesize and apply them to the majority of questions you'll see on the exam.
 >
 > <cite>&ndash; @Lou_JustLou</cite>
+
+### 12.
+> The strongest indicator of readiness for the exam is a change in mindset: boredom, frustration, and desire to see the exam whether pass or fail.
+>
+> <cite>&ndash; @Ritvik</cite>
