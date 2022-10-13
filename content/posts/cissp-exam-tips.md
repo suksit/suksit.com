@@ -9,7 +9,7 @@ tags:
   - rant
 ---
 
-ระหว่างที่[เตรียมตัวสอบ CISSP](/posts/cissp-exam-preparation-review) ได้เห็นคำแนะนำหลายๆ อย่าง จากเหล่า CISSP ที่อยู่ใน Certification Station Discord รู้สึกว่าเป็นแนวคิดที่ดีและน่าสนใจ เลยเอามารวบรวมไว้ เผื่อใครจะเอาข้อที่เข้ากับตัวเองไปปรับใช้ได้ครับ 🙂
+ระหว่างที่[เตรียมตัวสอบ CISSP](/posts/cissp-exam-preparation-review) ได้เห็นคำแนะนำหลายๆ อย่าง จากเหล่า CISSP ที่อยู่ใน Certification Station Discord และ Reddit รู้สึกว่าเป็นแนวคิดที่ดีและน่าสนใจ เลยเอามารวบรวมไว้ เผื่อใครจะเอาข้อที่เข้ากับตัวเองไปปรับใช้ได้ครับ 🙂
 
 ### 1.
 > For 95% of questions you will know whether you know it or not. If you do answer it and move on. If you do not, read it once more, take your best guess and move on.
@@ -88,6 +88,6 @@ tags:
 > <cite>&ndash; @Ritvik</cite>
 
 ### 13.
-> Don't try to memorize. If you're struggling with anything in particular, come in here and TEACH it to others.
+> **Don't major in minors.** If you're wasting time memorizing key lengths, the inner working of a block cipher, or any other technical details, you're doing it wrong. Understand the concepts, processes and principles. All the time spent memorizing technical details might help you with a question or two but hinder your studies for the other 123+.
 >
-> <cite>&ndash; @Lou_JustLou</cite>
+> <cite>&ndash; u/Loud-Towel</cite>
