@@ -83,6 +83,6 @@ tags:
 > <cite>&ndash; @Lou_JustLou</cite>
 
 ### 12.
-> The strongest indicator of readiness for the exam is a change in mindset: boredom, frustration, and desire to see the exam whether pass or fail.
+> The strongest indicator for exam readiness is a change in mindset: boredom, frustration, and desire to see the exam whether pass or fail.
 >
 > <cite>&ndash; @Ritvik</cite>
