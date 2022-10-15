@@ -26,3 +26,7 @@ pre[class*="language-"] {
 cite {
   color: #bbb;
 }
+
+h3.review-heading {
+  margin-bottom: 6px;
+}
