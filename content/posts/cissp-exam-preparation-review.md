@@ -91,7 +91,7 @@ tags:
 
 {{< image src="https://img.shields.io/badge/Highly%20Recommended-9%2F10-brightgreen" alt="Highly Recommended: 9/10" style="display: inline-block;" >}}
 
-อันนี้เพิ่งเปิดดูตอนวันก่อนสอบ ทีแรกไม่ชอบเพราะรู้สึกว่าสำเนียงเค้าฟังยาก แต่พบว่าถ้าตั้งใจฟังให้เป็นเรื่องเป็นราว จะได้ประโยชน์เยอะมากๆ ถ้าไม่ค่อยมีเวลาแนะนำให้ดูสองอันนี้ Think Like a Manager: Tips for CISSP, CSSLP, CCSP exam success ([1](https://www.youtube.com/watch?v=eryy9y3LaIQ), [2](https://www.youtube.com/watch?v=bXc3zL7S5pw))
+อันนี้เพิ่งเปิดดูตอนวันก่อนสอบ รู้จัก Prabh Nair มาตั้งแต่เริ่มเตรียมตัวสอบจริงจัง แต่ผมเลี่ยงไม่ดูวิดีโอเค้ามาตลอด เพราะรู้สึกว่าสำเนียงเค้าฟังยาก แต่พอตั้งใจฟังก็พบว่าเค้าอธิบายได้กระชับ เข้าใจง่าย เหมาะกับการฟังเพื่อเอาไปสอบมาก ถ้าไม่ค่อยมีเวลาแนะนำให้ดู Think Like a Manager Series ([1](https://www.youtube.com/watch?v=eryy9y3LaIQ), [2](https://www.youtube.com/watch?v=bXc3zL7S5pw), [3](https://www.youtube.com/watch?v=azDjLfuVYDE)) ครับ
 
 ### Destination Certification Mindmaps {.review-heading}
 
