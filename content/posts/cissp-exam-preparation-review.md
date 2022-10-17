@@ -17,7 +17,7 @@ tags:
 
 สำหรับ[กติกาการสอบ CISSP](https://www.isc2.org/-/media/ISC2/Certifications/Exam-Outlines/CISSP-Exam-Outline-English-April-2021.ashx) คือให้เวลา 4 ชั่วโมง ส่วนจำนวนข้อสอบที่ต้องทำจะขึ้นอยู่กับการประเมินของ CAT (Computerized Adaptive Testing) ว่าเรามีความรู้เพียงพอที่จะสอบผ่านหรือยัง ถ้ามันยังไม่พอใจ ก็จะให้ตอบคำถามเพิ่มจนกว่ามันคิดว่าโอเค ขั้นต่ำคือ 125 ข้อ สูงสุดคือ 175 ข้อ
 
-{{< image src="/img/cissp-exam-preparation-review/cissp-cat-exam-info.png" alt="CISSP CAT Exam" position="center" >}}
+{{< image src="/img/cissp-exam-preparation-review/cissp-cat-exam-info.png" alt="CISSP CAT Exam" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em;" >}}
 
 ผมสอบผ่านโดยตอบคำถามไปทั้งหมด 125 ข้อ ใช้เวลาประมาณ 2 ชั่วโมงครึ่ง
 
@@ -55,7 +55,7 @@ tags:
 
 อีกอย่างที่สำคัญคือผมรู้สึกว่าฟีเจอร์ของ Discord มันเหมาะกับการสร้าง study group มาก เวลามีคนตั้งคำถาม เราสามารถ hide คำตอบของตัวเอง เพื่อไม่ให้เกิด bias กับคนอื่นที่อยากลองตอบคำถามเหมือนกัน (นึกภาพการถามตอบในกลุ่ม LINE ที่ซ่อนอะไรไม่ได้เลย บางทีเห็นมีคนตอบแล้ว เราก็ขี้เกียจตอบ เพราะรู้สึกเหมือนลอกคำตอบคนอื่น) ส่วนคนถามก็สามารถ mark คำตอบของแต่ละคนได้ ถ้านึกภาพไม่ออก มันจะเป็นประมาณนี้
 
-{{< image src="/img/cissp-exam-preparation-review/discord-question-answer.png" alt="Q&A in Discord" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/cissp-exam-preparation-review/discord-question-answer.png" alt="Q&A in Discord" position="center" style="border-radius: 8px;" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em;" >}}
 
 นอกจากนี้ก็มี voice channel ให้ใช้ได้เวลาต้องการพูดคุยสื่อสารกัน และด้วยระบบ roles ของ Discord เราสามารถดูได้ว่าใครเป็น CISSP บ้าง ซึ่งถ้าเรามีข้อสงสัย คำตอบของเขาก็น่าจะเชื่อถือได้มากกว่าคนที่กำลังศึกษาอยู่ อะไรทำนองนี้
 
