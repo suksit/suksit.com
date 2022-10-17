@@ -1,6 +1,6 @@
 ---
 title: "My CISSP Journey with NCSA"
-date: 2022-10-14T22:44:32+07:00
+date: 2022-10-15T16:15:32+07:00
 toc: true
 images:
 tags:
