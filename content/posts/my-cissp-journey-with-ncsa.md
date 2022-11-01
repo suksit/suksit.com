@@ -130,9 +130,9 @@ tags:
 
 <div style="text-align: center; margin-bottom: -1.5em;">
   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9a488363-e20d-43f0-93fb-2ecf3cab6938" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
+&nbsp;
   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5b949ab2-1fbc-4494-8129-bd097bfa9407" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
+&nbsp;
   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a6c938b9-7863-4f07-9246-ca5148d1c64c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 </div>
 
