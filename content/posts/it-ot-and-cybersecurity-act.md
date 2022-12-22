@@ -1,5 +1,5 @@
 ---
-title: "IT vs OT Cybersecurity"
+title: "IT/OT and Cybersecurity Act"
 date: 2022-12-21T22:49:30+07:00
 toc: false
 images:
@@ -7,6 +7,7 @@ tags:
   - cybersecurity
   - operational technology
   - cissp
+  - cybersecurity act
   - rant
   - risk assessment
 ---
