@@ -1,5 +1,5 @@
 ---
-title: "IT/OT and Cybersecurity Act"
+title: "OT Cybersecurity is Fun"
 date: 2022-12-21T22:49:30+07:00
 toc: false
 images:
