@@ -1,9 +1,6 @@
 ---
 title: "Revisiting CTF"
 date: 2023-06-18T14:32:04+07:00
-draft: true
-toc: false
-images:
 tags:
   - rant, ctf, nahamcon-2023
 ---
