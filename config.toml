@@ -18,7 +18,7 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
 
 [params.logo]
   logoMark   = "$"
-  logoText   = "cd /root"
+  logoText   = "cd /home"
 
 [[menu.main]]
   identifier = "posts"
