@@ -49,7 +49,7 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
   url  = "https://tryhackme.com/p/suksit"
 
 [params.footer]
-  trademark = true
+  trademark = 2024
   rss = true
   copyright = true
   author = true
