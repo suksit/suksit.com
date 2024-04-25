@@ -60,7 +60,7 @@ sensor แต่ละตัวจะเชื่อมต่อกับ gatewa
 | Target | Moscollector industrial sensor and monitoring infrastructure (Russia) | Natanz nuclear enrichment lab (Iran) |
 | Scale of Damage | Widespread<br>(number of damaged devices and affecfed stakeholders -- airports, subways, gas, water, etc.) | Site-specific<br>(only Iran's nuclear lab) |
 | Cost of Damage | (Should be) Relatively lower | (Should be) Very high |
-| Stealthiness | Loud<br>(directly disables IoT gateways and performs DOS on sensors) | Silent<br>(modifies PLC's settings and reports normal values back to HMI) |
+| Stealthiness | Loud<br>(directly damages IoT gateways and performs DOS on sensors) | Silent<br>(modifies PLC's settings and reports normal values back to HMI) |
 
 ## Summary
 
