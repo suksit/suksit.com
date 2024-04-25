@@ -2,7 +2,7 @@
 title: "Fuxnet"
 date: 2024-04-24T23:23:39+07:00
 draft: false
-toc: false
+toc: true
 images:
 tags:
   - cybersecurity
