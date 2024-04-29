@@ -40,7 +40,7 @@ tags:
 แนวทางการป้องกัน high consequence events ของระบบ OT ส่วนใหญ่จะใช้หลักการทางวิศวกรรม ที่เราสามารถบอกได้ด้วยความมั่นใจว่าการทำแบบนี้ ช่วยป้องกันการโจมตี/ผลกระทบในกรณีไหนได้บ้าง โดยไม่ขึ้นอยู่กับสกิลของ threat actor เช่น
 
 * การใช้ unhackable protection measures (ระบบ protection ที่ไม่เชื่อมต่อกับเครือข่ายใดๆ หรือ analog protection)
-* หลักการตามข้อข้างบน น่าจะเป็นเรื่องเดียวกับ consequence-driven cyber-informed engineering (CCE) คือการออกแบบระบบเพื่อป้องกันการโจมตีทางไซเบอร์โดยใช้หลักการทางวิศวกรรม
+* หลักการตามข้อข้างบน น่าจะเป็นเรื่องเดียวกับ [Consequence-Driven Cyber-Informed Engineering (CCE)](https://inl.gov/national-security/cce/) คือการออกแบบระบบเพื่อป้องกันการโจมตีทางไซเบอร์โดยใช้หลักการทางวิศวกรรม
 
 ## The Middle
 
