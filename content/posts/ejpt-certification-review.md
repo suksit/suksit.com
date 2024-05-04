@@ -22,7 +22,7 @@ tags:
 
 ## Overview
 
-eJPT เป็น certification ระดับเริ่มต้นของคนที่ทำงานด้าน penetration testing มีเนื้อหาครอบคลุมหัวข้อต่อไปนี้
+eJPT (Junior Penetration Tester) เป็น certification ระดับเริ่มต้นของคนที่ทำงานด้านการทดสอบเจาะระบบ หรือ penetration testing มีเนื้อหาครอบคลุมหัวข้อต่อไปนี้
 
 * Assessment Methodologies (25%)
 * Host and Networking Auditing (25%)
