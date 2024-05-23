@@ -14,6 +14,8 @@ Yesterday I watched a video that John Hammond interviews James "Shikata" Rogers.
 
 {{< youtube emTiSwHBxaE >}}
 
-They mainly discussed about internal pentesting on Active Directory -- misconfigurations, default weaknesses, and some great tradecrafts and techniques. They also touched on the topic of OT cybersecurity.
+They mainly discussed about internal pentesting to verify network and Active Directory security -- misconfigurations, default weaknesses, and some great tradecrafts and techniques.
+
+They also touched on the topic of OT cybersecurity, and emphasized on network segmentation.
 
 Highly recommended!
