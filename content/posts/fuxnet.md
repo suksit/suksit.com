@@ -10,6 +10,7 @@ tags:
   - malware
   - ics
   - operational technology
+  - team82
 ---
 
 ## Overview
