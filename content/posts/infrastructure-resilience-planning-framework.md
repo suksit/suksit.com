@@ -20,17 +20,17 @@ tags:
 
 โดยความเห็นส่วนตัว ถ้าเทียบกับประเทศไทย ก็น่าจะเป็นระดับ สภาพัฒน์, กระทรวงต่างๆ,  หรือองค์การบริหารส่วนจังหวัด อะไรทำนองนี้
 
-ตัวเฟรมเวิร์กแบ่งออกเป็นขั้นตอนใหญ่ๆ 5 ส่วน คือ
+ตัวเฟรมเวิร์กแบ่งออกเป็นขั้นตอนใหญ่ๆ 5 ส่วน ดังนี้
 
 {{< figure src="/img/infrastructure-resilience-planning-framework/irpf-steps.png" attr="IRPF 5-Step Guidance" >}}
 
-1. **Lay the Foundation** &ndash; แนวทางการจัดตั้ง planning group ที่ประกอบด้วย stakeholders จาก infrastructure แต่รีวิวข้อมูลที่เกี่ยวข้อง
-2. **Identify Critical Infrastructure** &ndash; แนวทางการระบุ infrastructure ที่ critical รวมทั้งการขึ้นต่อกันของระบบต่างๆ
+1. **Lay the Foundation** &ndash; แนวทางการจัดตั้ง planning group ที่ประกอบด้วย stakeholders จาก infrastructure และรีวิวข้อมูลที่เกี่ยวข้อง
+2. **Identify Critical Infrastructure** &ndash; แนวทางการระบุ critical infrastructure และการขึ้นต่อกันของระบบต่างๆ
 3. **Assess Risk** &ndash; แนวทางการทำ risk assessment ของ critical infrastructure รวมถึงการจัดระดับความสำคัญของ mitigation measures
-4. **Develop Actions** &ndash; แนวทางการจัดทำ mitigation strategies เพื่อให้บรรลุวัตถุประสงค์ในการสร้าง resilience
-5. **Implement & Evaluate** &ndash; แนวทางการ implement solution ตามแผนที่วางไว้ แนวทางการหาแหล่งเงินทุนและความช่วยเหลือด้านเทคนิค
+4. **Develop Actions** &ndash; แนวทางการจัดทำ mitigation strategies เพื่อให้บรรลุวัตถุประสงค์ในการสร้าง resilience ให้กับ critical infrastructure
+5. **Implement & Evaluate** &ndash; แนวทางการ implement solution ตามที่วางแผนไว้ แนวทางการหาแหล่งเงินทุนและความช่วยเหลือด้านเทคนิค
 
-ล่าสุด CISA ได้ออก [IRPF Playbook](https://www.cisa.gov/resources-tools/resources/infrastructure-resilience-planning-framework-irpf-playbook) เพิ่มเติม เพื่อเป็น how-to guide โดยมีตัวอย่างการเล่าเรื่องแบบ scenario ประกอบ เพื่อให้เห็นกระบวนการในแต่ละ step และ output ที่จะได้ในแต่ละ step ได้ชัดเจนขึ้น
+ล่าสุด CISA ได้ออก [IRPF Playbook](https://www.cisa.gov/resources-tools/resources/infrastructure-resilience-planning-framework-irpf-playbook) มาเพิ่มเติม เพื่อเป็น how-to guide โดยมีตัวอย่างการเล่าเรื่องแบบ scenario ประกอบ เพื่อให้เห็นกระบวนการในแต่ละ step และ output ที่จะได้ในแต่ละ step ได้ชัดเจนขึ้น
 
 {{< figure src="/img/infrastructure-resilience-planning-framework/irpf-integration-example.png" attr="IRPF Integration Example" >}}
 
