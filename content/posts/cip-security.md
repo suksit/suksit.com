@@ -14,7 +14,7 @@ tags:
 
 ปกติเวลาพูดถึงคำว่า CIP ผมจะนึกถึงแต่คำว่า "Critical Infrastructure Protection" ของ NERC CIP แต่เมื่อ 2-3 อาทิตย์ก่อน เพิ่งรู้ว่ามันมีอีก CIP ที่เกี่ยวข้องกับเรื่อง cybersecurity เหมือนกัน นั่นคือ CIP Security
 
-คำว่า CIP ในที่นี้ ย่อมาจาก "Common Industrial Protocols" โดย CIP Security เป็นมาตรฐานที่พัฒนาโดย [ODVA](https://www.odva.org/) มีวัตถุประสงค์เพื่อให้ CIP-connected devices สามารถป้องกันต้วเองจาก CIP communication ที่มาจากผู้ไม่ประสงค์ดีได้
+คำว่า CIP ในที่นี้ ย่อมาจาก "Common Industrial Protocols" โดย CIP Security เป็นมาตรฐานที่พัฒนาโดย [ODVA](https://www.odva.org/) เพื่อให้ CIP-connected devices สามารถป้องกันต้วเองจาก CIP communication ที่มาจากผู้ไม่ประสงค์ดีได้
 
 เป้าหมายของ CIP Security คือเพื่อเพิ่มความแข็งแกร่งใน layer สุดท้ายตามแนวคิด defense-in-depth ของระบบ industrial control system โดยมองว่าถ้า attacker สามารถทะลุผ่านแนวป้องกันใน layer อื่นๆ มาได้หมดแล้ว ปราการด่านสุดท้ายก็คือตัวอุปกรณ์ (Device) นั่นเอง
 
@@ -25,7 +25,7 @@ tags:
 * ปฏิเสธ message จาก untrusted people หรือ untrusted devices **(authenticity)**
 * ปฏิเสธ message ที่สั่งให้ทำสิ่งที่ไม่ได้รับอนุญาต **(authorization)**
 
-และ CIP Security ออกแบบขึ้นมาโดยมีสมมติฐานว่า
+CIP Security ถูกออกแบบอยู่บนสมมติฐานต่อไปนี้
 * เครือข่ายที่เชื่อมต่อกับอุปกรณ์ ถือเป็น untrusted network
 * ผู้ใช้และอุปกรณ์อื่นๆ ที่อยู่ในเครือข่าย จะเป็น untrusted people หรือ untrusted devices จนกว่าจะผ่านการ authentication
 * การเข้าถึง device ทางเครือข่าย จะทำได้ก็ต่อเมื่อผ่านการ authentication แล้ว
