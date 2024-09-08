@@ -2,14 +2,16 @@ baseURL = "https://suksit.com/"
 languageCode = "en-us"
 title = "suksit dot com"
 theme = "hello-friend-ng"
-paginate = 10
 copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">CC BY-SA 4.0</a>"
 
-[author]
+[pagination]
+  pagerSize = 10
+
+[site.author.name]
   name = "Suksit Sripitchayaphan"
 
 [params]
-  homeSubtitle = "Rant / Code / Note / Thought"
+  homeSubtitle = "Rant / Code / Notes / Thoughts"
   enableThemeToggle = true
   customCSS = ["/css/custom.css"]
 
