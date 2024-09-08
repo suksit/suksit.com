@@ -7,7 +7,7 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
 [pagination]
   pagerSize = 10
 
-[site.author.name]
+[author]
   name = "Suksit Sripitchayaphan"
 
 [params]
