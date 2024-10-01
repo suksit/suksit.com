@@ -6,6 +6,7 @@ images:
 tags:
   - rant
   - operational technology
+  - cybersecurity
 ---
 
 อ่าน mailing list ของ SCADASEC ที่คุยกันเรื่องนิยามของคำว่า OT หรือ Operational Technology แล้วรู้สึกว่าน่าสนใจดี เลยขอจดไว้หน่อย
@@ -27,3 +28,9 @@ tags:
 > **Operational Technology**
 >
 > Technologies used to monitor and control physical processes governed by the laws of physics and chemistry.
+
+ลองดูนิยามอื่นๆ นอกเหนือจากที่คุยกันใน mailing list... เช่น ของ [NIST](https://csrc.nist.gov/glossary/term/operational_technology)
+
+> **Operational Technology**
+>
+> Programmable systems or devices that interact with the physical environment (or manage devices that interact with the physical environment). These systems/devices detect or cause a direct change through the monitoring and/or control of devices, processes, and events. Examples include industrial control systems, building management systems, fire control systems, and physical access control mechanisms.
