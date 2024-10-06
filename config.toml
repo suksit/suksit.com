@@ -7,13 +7,13 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
 [pagination]
   pagerSize = 10
 
-[author]
-  name = "Suksit Sripitchayaphan"
-
 [params]
   homeSubtitle = "Rant / Code / Notes / Thoughts"
   enableThemeToggle = true
   customCSS = ["/css/custom.css"]
+
+[params.author]
+  name = "Suksit Sripitchayaphan"
 
 [params.portrait]
   path = "/img/avatar.png"
