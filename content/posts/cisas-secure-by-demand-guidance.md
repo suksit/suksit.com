@@ -6,7 +6,10 @@ toc: true
 images:
 tags:
   - cisa
+  - guidance
   - ot security
+  - rant
+  - secure by demand
 ---
 
 ## Introduction
