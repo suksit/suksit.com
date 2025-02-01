@@ -23,7 +23,7 @@ tags:
 ## CPTS Course Overview
 เงื่อนไขของการสอบ CPTS คือต้องเรียน Penetration Tester Job Role Path ให้ครบ 100% โดยเนื้อหามีทั้งหมด 28 modules ผมใช้เวลาเรียนช่วงกลางคืนหลังเลิกงาน รวมทั้งช่วงวันหยุดต่างๆ เริ่มตั้งแต่ต้นเดือน มิ.ย. 67 และเรียนจบตอนต้นเดือน ธ.ค. 67 ใช้เวลารวมๆ ประมาณ 6 เดือน
 
-เนื้อหาของคอร์สโดยรวมดีมากๆ ถึงไม่ได้อยากสอบ CPTS ก็แนะนำให้เรียนถ้าสนใจเรื่อง penetration testing ครับ เทียบกับคอร์ส PEN-200 ของ OffSec แล้ว คอร์สของ HTB สอนละเอียดกว่า อธิบายมากกว่า และมีตัวอย่างให้ดูเยอะกว่า
+เนื้อหาของคอร์สโดยรวมดีมากๆ ถึงไม่ได้อยากสอบ CPTS ก็แนะนำให้เรียนถ้าสนใจเรื่อง penetration testing ครับ เทียบกับคอร์ส PEN-200 ของ OffSec แล้ว คอร์สของ HTB สอนละเอียดกว่า เนื้อหาลึกกว่า และมีตัวอย่างให้ดูเยอะกว่า
 
 ภาพรวมของคอร์สจะสอนการทำ network penetration testing ทั้งกระบวนการ ตั้งแต่การทำ enumeration, web attack, application/service/API attack, privilege escalation, pivoting, Active Directory attack รวมไปถึงวิธีการเขียน penetration testing report แบบ professional
 
