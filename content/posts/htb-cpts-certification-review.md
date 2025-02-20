@@ -63,7 +63,7 @@ tags:
 
 พอคลิกลิงก์ที่อยู่ในอีเมล ก็จะเข้าไปที่หน้า Exams ใน HTB Academy และมีลิงก์ให้กดเพื่อดาวน์โหลด certificate ได้ออกมาหน้าตาประมาณนี้
 
-{{<image src="/img/htb-cpts-certification-review/htb-cpts-certificate.png" alt="HTB CPTS Certificate" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em;">}}
+{{<image src="/img/htb-cpts-certification-review/htb-cpts-certificate.png" alt="Hack The Box CPTS Certificate" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em;">}}
 
 ## CPTS Exam Tips & Resources
 ขอแบ่งเป็นสองส่วน คือ การเตรียมตัวสอบ และระหว่างการสอบ
