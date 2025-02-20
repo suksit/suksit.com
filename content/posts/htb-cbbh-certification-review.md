@@ -66,6 +66,17 @@ tags:
 * **Take good notes** แนะนำให้จดโน้ตระหว่างเรียน ส่วนตัวผมจดโน๊ตไม่ค่อยดีเท่าไหร่ คือจดบ้างไม่จดบ้าง สุดท้ายพอจะใช้สิ่งที่ไม่ได้จดไว้ก็ต้องย้อนกลับไปเปิดหาจาก module ใน HTB Academy
 * **Learn how to use Burp Suite** แทบจะเรียกว่าเป็นเครื่องมือหลักในการสอบของผมเลยก็ว่าได้
 * **Learn how to enumerate & exploit manually** น่าจะเป็นคำแนะนำมาตรฐาน ว่าอย่าหวังพึ่ง automate tools หรือ public exploit อย่างเดียว
+* **Learn [SysReptor](https://github.com/Syslifters/sysreptor)** เป็นเครื่องมือทำ penetration testing report ที่ช่วยให้ทำ report ที่มีหน้าตา professional ได้แบบง่ายๆ ช่วยลดความผิดพลาดในการเขียน report ได้มาก และ[มี template สำหรับการสอบ certification ของ HTB](https://www.hackthebox.com/blog/certification-templates) ทั้งหมดให้ใช้ด้วย
+* **Watch walkthroughs / read writeups** อันนี้เป็นลิสต์ของ box ที่คนสอบผ่านหลายๆ คนแนะนำให้ศึกษา คิดว่าดูเฉพาะ initial foothold ที่เกี่ยวกับ web application ก็น่าจะพอ
+  * Academy
+  * BountyHunter
+  * Editorial
+  * Forge
+  * GoodGames
+  * Headless
+  * Spider 
+  * TwoMillion
+  * Usage
 
 ### During the Exam
 * **Think out of the box** อันนี้เป็นคำที่ทุกคนชอบแนะนำคนที่จะสอบ CBBH เอาจริงๆ ผมก็ว่าไม่ถึงขนาดนั้น เพราะสุดท้ายมันก็วนกลับมาที่การทำ enumeration ว่าเราทำได้ละเอียดครบถ้วนแค่ไหน ครอบคลุมความเป็นไปได้ทั้งหมดหรือยัง
