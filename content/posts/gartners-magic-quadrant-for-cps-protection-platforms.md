@@ -27,7 +27,7 @@ tags:
 
 ผมเห็นด้วยกับ Dale ที่บอกว่ากลุ่ม Leader จริงๆ น่าจะมีแค่ 4 เจ้า คือ Claroty, Nozomi, Dragos, และ Armis ส่วน Microsoft เท่าที่ผมติดตามข่าวมาก็จะไม่ค่อยเห็นบทบาทในด้าน OT Security ซักเท่าไร
 
-Dale ยังมองลึกลงไปอีกว่าในกลุ่ม Leader นี้ ไม่ควรเอา Dragos มาเทียบกับผลิตภัณฑ์อื่นๆ เพราะ Dragos จะเน้นขาย service แบบครบวงจร ในขณะที่อีก 3 เจ้าที่เหลือ จะเน้นที่ฟีเจอร์ของตัวผลิตภัณฑ์เป็นหลัก
+Dale ยังมองลึกลงไปอีกว่าในกลุ่ม Leader นี้ ไม่ควรเอา Dragos มาเทียบกับผลิตภัณฑ์อื่นๆ เพราะ Dragos จะเน้นขาย service แบบครบวงจร ในขณะที่อีก 3 เจ้าที่เหลือ จะเน้นในเรื่อง discovery & monitoring เป็นหลัก
 
 > If having a world class team supporting your OT detection, threat intel, and incident response, then you select Dragos combo of product and services. If you want visibility to what is on your system (asset inventory) and what is going on in your system you choose between Nozomi/Claroty/Armis
 
