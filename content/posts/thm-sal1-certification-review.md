@@ -80,6 +80,6 @@ THM SAL1 เป็น certification แบบ hands-on ระดับ entry-lev
 * The SOC simulation should not end automatically, there should be a confirmation dialog for the user (just like in Section 1). Here are my two reasons:
     * The user will have a chance to review the reports before submitting
     * Not sure if it's the case, but I got feedbacks on "False Positives misclassified", which I thought might be caused by the exam automatically ended while there were still some un-triaged alerts.
-* THM may want to consider using a more detailed form fields instead of the textarea so the user can provide more specific details in the report, to be more aligned with what the AI grader was expected.
+* THM may want to consider using a more detailed form fields instead of the textarea so the user can provide more specific details in the report, to be more aligned with what the AI grader expected to see.
 * The support team were very helpful and reasonable 😇
 * Yes, I would recommend taking SAL1 certification for entry-level SOC analysts to test their knowledge and skills. It was quite realistic, fun, and exciting.
