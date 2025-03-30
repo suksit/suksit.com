@@ -5,7 +5,11 @@ draft: false
 toc: true
 images:
 tags:
-  - untagged
+  - tryhackme
+  - certification
+  - security analyst level 1
+  - sal1
+  - rant
 ---
 
 เมื่อวานนี้ (29 มี.ค. 68) ผมเพิ่งผ่านการสอบ [Security Analyst Level 1 (SAL1)](https://tryhackme.com/certification/security-analyst-level-1) certification ของ TryHackMe เป็นประสบการณ์สอบที่ค่อนข้างแตกต่างจากครั้งอื่นๆ เลยมาบันทึกประสบการณ์ + feedback ไว้หน่อย
