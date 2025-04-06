@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ...SNIP...
 ```
 
-เมื่อดู HTTP response ของ URL `/api.php?action=get_userinfo` ใน Burp Suite จะเห็นข้อมูล JSON ดังนี้
+เมื่อดู HTTP response ของ endpoint `/api.php?action=get_userinfo` ใน Burp Suite จะเห็นข้อมูล JSON ดังนี้
 
 <div align="center">
 
@@ -183,7 +183,7 @@ $ curl -H 'Cookie: PHPSESSID=ba2b06cda26d1e0cd7e52e0b1e0cc4bf' 'https://web1.ctf
 
 </div>
 
-ข้อมูลใน `remember_me` cookie มีหน้าตาเป็น Base64 encoded value จำนวน 3 ชุด คั่นด้วย `.` จึงพอจะเดาได้ว่าเป็น JWT (JSON Web Token)
+ข้อมูลใน `remember_me` cookie มีหน้าตาเป็น Base64 encoded value จำนวน 3 ชุด คั่นด้วย `.` จึงพอจะเดาได้ว่าเป็น [JWT (JSON Web Token)](https://en.wikipedia.org/wiki/JSON_Web_Token)
 
 ```text
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImI4MTk0M2JhLWQxYzUtNDk1YS04NDI3LTQ3MTFjMzkyNTZiZiJ9.Rlk_a69lx16hNhwn4nBfRxhiMGmEDoPIcxfr1_7JdH8
@@ -287,15 +287,17 @@ JWT หรือ JSON Web Token เป็นมาตรฐานในการ
 * **payload** เก็บข้อมูลของผู้ใช้หรือแอปพลิเคชัน
 * **signature** เก็บ digital signature เพื่อไว้ใช้ตรวจสอบความถูกต้องของ header และ payload
 
-การคำนวณ digital signature ของ JWT ทำได้โดยนำ header และ payload มา encode เป็น Base64 แล้วเชื่อมกันด้วย `.` จากนั้นนำมาคำนวณค่า HMAC โดยใส่ secret ที่เรากำหนด
+การคำนวณ signature ของ JWT ทำได้โดยนำ header และ payload มา encode เป็น Base64 แล้วเชื่อมกันด้วย `.` จากนั้นนำมาคำนวณค่า HMAC ตาม algorithm ที่กำหนดไว้ใน header โดยใส่ secret ที่เรากำหนดได้เอง ดังนี้
 
-<div align="center">
+```text
+HMAC_SHA256(
+  secret,
+  base64urlEncoding(header) + '.' +
+  base64urlEncoding(payload)
+)
+```
 
-![JWT Signature Algorithm](/img/sth-mini-web-ctf-2025-1/image-12.png)
-
-</div>
-
-ถ้าแอปพลิเคชันใช้ secret ที่ไม่แข็งแรงหรือมีความยาวพอ เราสามารถ brute force JWT เพื่อหาค่า secret ได้ และหลังจากนั้นเราสามารถปลอมแปลง JWT โดยใส่ payload ตามที่ต้องการ แล้ว sign JWT ด้วย secret ดังกล่าว
+ดังนั้นถ้าแอปพลิเคชันใช้ secret ที่ไม่แข็งแรงหรือมีความยาวไม่มากพอ เราสามารถ brute force JWT เพื่อหาค่า secret ได้ และหลังจากนั้นเราสามารถปลอมแปลง JWT โดยใส่ payload ตามที่ต้องการ แล้ว sign JWT ด้วย secret ดังกล่าว
 
 ### Brute Forcing JWT Secret
 
@@ -305,7 +307,7 @@ JWT หรือ JSON Web Token เป็นมาตรฐานในการ
 $ hashcat -a 0 -m 16500 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImI4MTk0M2JhLWQxYzUtNDk1YS04NDI3LTQ3MTFjMzkyNTZiZiJ9.Rlk_a69lx16hNhwn4nBfRxhiMGmEDoPIcxfr1_7JdH8 ~/ctf/rockyou.txt       
 hashcat (v6.2.6) starting
 
-<SNIP>
+...SNIP...
 
 Dictionary cache hit:
 * Filename..: /home/kong/ctf/rockyou.txt
@@ -313,11 +315,11 @@ Dictionary cache hit:
 * Bytes.....: 139921497
 * Keyspace..: 14344384
 
-<SNIP>
+...SNIP...
 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImI4MTk0M2JhLWQxYzUtNDk1YS04NDI3LTQ3MTFjMzkyNTZiZiJ9.Rlk_a69lx16hNhwn4nBfRxhiMGmEDoPIcxfr1_7JdH8:"bobcats"
-                                                          
-<SNIP>
+
+...SNIP...
 ```
 
 ### Forging JWT for "admin-uat"
@@ -346,7 +348,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjczZWI3MDYzLWY4YzMtNGU1MC1iZWE
 
 </div>
 
-> หลังจากเปลี่ยน JWT แล้วลอง refresh หน้าเว็บ ผมพบว่าตัวเองยังมีสิทธิ์เป็น user "test" อยู่เหมือนเดิม จึงลองลบ cookie ดัวอื่นๆ ออกหมด ให้เหลือแค่ `remember_me` แล้ว refresh หน้าเว็บอีกรอบ
+หลังจากเปลี่ยน JWT แล้วลอง refresh หน้าเว็บ ผมพบว่าตัวเองยังมีสิทธิ์เป็น user "test" อยู่เหมือนเดิม จึงลองลบ cookie ดัวอื่นๆ ออกหมด ให้เหลือแค่ `remember_me` แล้ว refresh หน้าเว็บอีกรอบ
 
 <div align="center">
 
