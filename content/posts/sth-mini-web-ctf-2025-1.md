@@ -305,9 +305,9 @@ HMAC_SHA256(
 
 ดังนั้นถ้าแอปพลิเคชันใช้ secret ที่ไม่แข็งแรงหรือมีความยาวไม่มากพอ เราสามารถ brute force JWT เพื่อหาค่า secret ได้ และหลังจากนั้นเราสามารถปลอมแปลง JWT โดยใส่ payload ตามที่ต้องการ แล้ว sign JWT ด้วย secret ดังกล่าว
 
-### Brute Forcing JWT Secret
+### Cracking JWT Secret
 
-ผมใช้ hashcat โหมด 16500 ในการ brute force JWT secret โดยใช้ wordlist จาก `rockyou.txt` และสามารถ crack ได้สำเร็จ ออกมาเป็นคำว่า `"bobcats"`
+ผมใช้ hashcat โหมด 16500 ในการ crack JWT secret โดยใช้ wordlist จาก `rockyou.txt` และสามารถ crack ได้สำเร็จ ออกมาเป็นคำว่า `"bobcats"`
 
 ```shell-session
 $ hashcat -a 0 -m 16500 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImI4MTk0M2JhLWQxYzUtNDk1YS04NDI3LTQ3MTFjMzkyNTZiZiJ9.Rlk_a69lx16hNhwn4nBfRxhiMGmEDoPIcxfr1_7JdH8 ~/ctf/rockyou.txt       
