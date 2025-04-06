@@ -226,7 +226,7 @@ function debugFetchUserTest() {
 ...SNIP...
 ```
 
-เมื่อลองเรียก URL ที่ระบุไว้ในฟังก์ชัน `debugFetchUserTest()` ด้วย cURL จะได้ข้อมูล JSON แบบเดียวกับตอนเรียก `/api.php?action=get_userinfo` แบบไม่มี parameter `user` (เพราะเป็นข้อมูลของ user "test" เหมือนกัน)
+เมื่อลองเรียก endpoint ที่ระบุไว้ในฟังก์ชัน `debugFetchUserTest()` ด้วย cURL จะได้ข้อมูล JSON แบบเดียวกับตอนเรียก `/api.php?action=get_userinfo` แบบไม่มี parameter `user` (เพราะเป็นข้อมูลของ user "test" เหมือนกัน)
 
 ```shell-session
 $ curl -H 'Cookie: PHPSESSID=ba2b06cda26d1e0cd7e52e0b1e0cc4bf' 'https://web1.ctf.p7z.pw/api.php?action=get_userinfo&user=test'
@@ -266,7 +266,7 @@ function debugFetchAllUsers() {
 }
 ```
 
-ในฟังก์ชันนี้มี comment ที่อ้างถึงพาธ `/admin.php` ที่เราหาเจอด้วย gobuster ก่อนหน้านี้แล้ว และเมื่อลองเรียก URL ที่ระบุไว้ในฟังก์ชันด้วย cURL ปรากฏว่าได้รายชื่อ user ออกมา 2 account
+ในฟังก์ชันนี้มี comment ที่อ้างถึงพาธ `/admin.php` ที่เราหาเจอด้วย gobuster ก่อนหน้านี้แล้ว และเมื่อลองเรียก endpoint ที่ระบุไว้ในฟังก์ชันด้วย cURL ปรากฏว่าได้รายชื่อ user ออกมา 2 account
 
 ```shell-session
 $ curl -H 'Cookie: PHPSESSID=ba2b06cda26d1e0cd7e52e0b1e0cc4bf' 'https://web1.ctf.p7z.pw/api.php?action=ge
@@ -274,7 +274,7 @@ t_alluser'
 ["test","admin-uat"]
 ```
 
-เมื่อลองใช้ cURL โดยเปลี่ยน parameter `user` ของ URL ในฟังก์ชัน `debugFetchUserTest()` เป็น "admin-uat" พบว่าได้ข้อมูล JSON ของ admin ออกมา
+เมื่อลองใช้ cURL โดยเปลี่ยน parameter `user` ของ endpoint ในฟังก์ชัน `debugFetchUserTest()` เป็น "admin-uat" พบว่าได้ข้อมูล JSON ของ admin ออกมา
 
 ```shell-session
 $ curl -H 'Cookie: PHPSESSID=ba2b06cda26d1e0cd7e52e0b1e0cc4bf' 'https://web1.ctf.p7z.pwuserinfo&user=admin-uat'
@@ -307,7 +307,7 @@ HMAC_SHA256(
 
 ### Brute Forcing JWT Secret
 
-ผมใช้ hashcat โหมด 16500 ในการ brute force JWT secret โดยใช้ wordlist จาก rockyou.txt และสามารถ crack ได้สำเร็จ ออกมาเป็นคำว่า `"bobcats"`
+ผมใช้ hashcat โหมด 16500 ในการ brute force JWT secret โดยใช้ wordlist จาก `rockyou.txt` และสามารถ crack ได้สำเร็จ ออกมาเป็นคำว่า `"bobcats"`
 
 ```shell-session
 $ hashcat -a 0 -m 16500 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImI4MTk0M2JhLWQxYzUtNDk1YS04NDI3LTQ3MTFjMzkyNTZiZiJ9.Rlk_a69lx16hNhwn4nBfRxhiMGmEDoPIcxfr1_7JdH8 ~/ctf/rockyou.txt       
