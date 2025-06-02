@@ -18,6 +18,8 @@ tags:
 ## Preface
 ผมเพิ่งผ่านการสอบ Certified Bug Bounty Hunter ของ Hack The Box (HTB CBBH) เป็นประสบการณ์สอบ hands-on certification ฝั่ง red team ใบที่ 3 ต่อจาก [eJPT](/posts/ejpt-certification-review) และ [CPTS](/posts/htb-cpts-certification-review) รอบนี้รู้สึกสนุกและไม่เครียดเหมือนตอนสอบ CPTS 555+ 🥳
 
+<center><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e57ee613-7d61-40c5-9e0b-b92fed9bf774" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script></center>
+
 ## CBBH Course Overview
 เงื่อนไขของการสอบ CBBH คือต้องเรียน Bug Bounty Hunter Job Role Path ให้ครบ 100% เนื้อหามีทั้งหมด 20 modules โดยจะมี module ที่เป็นเนื้อหาเดียวกับของ CPTS ประมาณ 50%
 
