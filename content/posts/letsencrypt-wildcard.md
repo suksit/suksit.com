@@ -6,7 +6,7 @@ tags: [ "letsencrypt", "wildcard", "certificate", "devops", "certbot" ]
 
 วันนี้เพิ่งเห็นว่า [Let's Encrypt](https://letsencrypt.org/) เปิดให้ใช้งาน [Certificate แบบ Wildcard](https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579) แล้ว เลยบ้าเห่อรีบเปลี่ยนอย่างไว (จริงๆ suksit.com ยังไม่มี subdomain จะเปลี่ยนทำไม 🤣)
 
-{{< tweet user="letsencrypt" id="973607502188195840" >}}
+{{< x user="letsencrypt" id="973607502188195840" >}}
 
 การใช้ Wildcard Certificate มีเงื่อนไขนิดหน่อย คือต้องใช้ [Client ที่รองรับ ACME v2](https://letsencrypt.org/docs/client-options/#acme-v2-compatible-clients) และจะเปลี่ยนจากการ validate แบบเดิม ไปใช้ DNS-01 Challenge แทน อย่างผมใช้ [Certbot](https://certbot.eff.org/) คำสั่งที่ใช้ในการสร้าง Wildcard Certificate จะเป็นประมาณนี้
 
