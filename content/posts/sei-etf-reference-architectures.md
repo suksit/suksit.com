@@ -12,7 +12,7 @@ tags:
   - sei etf
 ---
 
-เมื่อประมาณ 2 สัปดาห์ที่แล้ว ผมได้ทำเอกสารสรุปให้ผู้บริหาร เป็นเนื้อหาจาก "[Reference Architectures as a Means of Influencing Electric Energy Operational Technology/Industrial Control Systems Security Outcomes](https://secureenergy.inl.gov/content/uploads/27/2024/12/SEI-ETF-Reference-Architecture-for-EEOT.pdf)" ที่จัดทำโดย Securing Energy Infrastructure Executive Task Force (SEI ETF) เลยถือโอกาสเอามาแปะไว้ในบล็อกด้วย 😁
+เมื่อประมาณ 2 สัปดาห์ที่แล้ว ผมได้ทำเอกสารสรุปให้ผู้บริหาร เป็นเนื้อหาจาก "[Reference Architectures as a Means of Influencing Electric Energy Operational Technology/Industrial Control Systems Security Outcomes](https://secureenergy.inl.gov/content/uploads/27/2024/12/SEI-ETF-Reference-Architecture-for-EEOT.pdf)" เลยถือโอกาสเอามาแปะไว้ในบล็อกด้วย 😁
 
 เอกสารนี้จัดทำโดย Securing Energy Infrastructure Executive Task Force (SEI ETF) โดยมีวัตถุประสงค์เพื่อจัดการกับความท้าทายด้าน Cybersecurity ที่เพิ่มขึ้นเรื่อยๆ ของระบบ Operational Technology (OT) และ Industrial Control Systems (ICS) ของหน่วยงานภาคพลังงานไฟฟ้า
 
