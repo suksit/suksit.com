@@ -16,6 +16,8 @@ tags:
 
 เอกสารนี้จัดทำโดย Securing Energy Infrastructure Executive Task Force (SEI ETF) โดยมีวัตถุประสงค์เพื่อจัดการกับความท้าทายด้าน Cybersecurity ที่เพิ่มขึ้นเรื่อยๆ ของระบบ Operational Technology (OT) และ Industrial Control Systems (ICS) ของหน่วยงานภาคพลังงานไฟฟ้า
 
+{{<image src="/img/sei-etf-reference-architectures/cover.png" alt="SEI ETF Reference Architecture for EEOT" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em;">}}
+
 จากการศึกษาของ SEI ETF พบว่ามาตรฐานด้าน Cybersecurity ในปัจจุบันที่ออกโดยหน่วยงานต่างๆ เช่น NIST, IEEE, และ IEC มีความทับซ้อน ไม่สอดคล้อง และไม่ครอบคลุม โดยบางมาตรฐานอาจพูดถึงระบบ ICS แบบรวมๆ ในขณะที่บางมาตรฐานก็เฉพาะเจาะจงไปที่ส่วนย่อยๆ เช่น สถานีไฟฟ้า หรือระบบควบคุม (Automation Systems)
 
 SEI ETF จึงได้นำเสนอ Reference Architecture Framework เพื่อเป็นแนวทางในการออกแบบด้าน Cybersecurity สำหรับระบบไฟฟ้า โดยมีลักษณะเป็น Blueprint ที่กำหนด System Layers, องค์ประกอบต่างๆ ในแต่ละ Layer, และความสัมพันธ์ระหว่างองค์ประกอบเหล่านั้น ซึ่งถ้านำมาดัดแปลงให้เป็น Profile สำหรับระบบต่างๆ จะช่วยให้
