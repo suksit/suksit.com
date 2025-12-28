@@ -23,11 +23,13 @@ tags:
 
 ## Overview
 
-GCIP เป็น certification สำหรับผู้ที่ต้องดำเนินการตามมาตรฐาน NERC CIP เพื่อให้มีความเข้าใจใน requirements ต่างๆ ของมาตรฐาน รวมถึงแนวทางการ implement NERC CIP แบบ practical โดยความรู้ที่ใช้ในการสอบจะมาจากหลักสูตร [ICS456: Essentials for NERC Critical Infrastructure Protection](https://www.sans.org/cyber-security-courses/essentials-for-nerc-critical-infrastructure-protection) ของ SANS Institute
+GCIP เป็น certification สำหรับผู้ที่เกี่ยวข้องกับมาตรฐาน NERC CIP เพื่อให้มีความเข้าใจในนิยามและ requirements ต่างๆ รวมถึงแนวทางการ implement NERC CIP แบบ practical โดยความรู้ที่ใช้ในการสอบจะมาจากหลักสูตร [ICS456: Essentials for NERC Critical Infrastructure Protection](https://www.sans.org/cyber-security-courses/essentials-for-nerc-critical-infrastructure-protection) ของ SANS Institute
 
 ## Course Content
 
-เนื้อหาในหลักสูตร ICS456 ของ SANS จะอธิบายเกี่ยวกับ cybersecurity regulation ในบริบทของระบบไฟฟ้าใน North America โดยไล่ตั้งแต่โครงสร้างการกำกับดูแล (FERC, NERC, etc.), ประวัติความเป็นมาของ NERC CIP, กระบวนการร่างมาตรฐานของ NERC, รายละเอียด requirements ของมาตรฐาน CIP แต่ละเล่ม และแนวทางการ implement (people, process, technology) รวมไปถึงกระบวนการ audit และบทปรับเมื่อเกิด violation แน่นอนว่ายังคงคอนเซปต์ "drinking from a fire hose" อยู่เหมือนเดิม 😱
+เนื้อหาในหลักสูตร ICS456 ของ SANS จะอธิบายเกี่ยวกับ cybersecurity regulation ของหน่วยงานที่ควบคุมระบบไฟฟ้าใน North America โดยไล่ตั้งแต่โครงสร้างการกำกับดูแล (FERC, NERC, etc.), ประวัติความเป็นมาของ NERC CIP, กระบวนการร่างและอนุมัติมาตรฐานของ NERC เป็นต้น
+
+จากนั้นก็จะลงรายละเอียด requirements ของมาตรฐาน CIP แต่ละหัวข้อ และแนวทางการ implement (people, process, technology) รวมไปถึงกระบวนการ audit และบทปรับเมื่อเกิด violation แน่นอนว่ายังคงคอนเซปต์ "drinking from a fire hose" อยู่เหมือนเดิม 😱
 
 ICS456 จะแบ่งเนื้อหาออกเป็น 5 section เรียงตามนี้
 
