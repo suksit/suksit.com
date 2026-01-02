@@ -8,7 +8,7 @@ tags:
   - rant
 ---
 
-* สอบ OSCP (ถ้าผ่านเข้ารอบ 8 คนตาม[หลักสูตรของ สกมช.](https://www.facebook.com/share/p/1AM2HFgMSw/))
+* สอบ OSCP (ถ้าผ่านเข้ารอบ 8 คน ตาม[หลักสูตรของ สกมช.](https://www.facebook.com/share/p/1AM2HFgMSw/))
 * สอบ CAPE หรือ CWEE (ถ้าได้ HTB Gold Annual Subscription)
 * ออกกำลังกายสม่ำเสมอ
 * กินอาหารที่ดีต่อสุขภาพ
