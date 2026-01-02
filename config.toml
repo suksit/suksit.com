@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "suksit dot com"
 theme = "hello-friend-ng"
 copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">CC BY-SA 4.0</a>"
+enableGitInfo = true
 
 [pagination]
   pagerSize = 10
@@ -10,6 +11,7 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
 [params]
   homeSubtitle = "Rant / Code / Notes / Thoughts"
   enableThemeToggle = true
+  enableReadingTime = true
   customCSS = ["/css/custom.css"]
 
 [params.author]
@@ -20,7 +22,7 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
 
 [params.logo]
   logoMark   = "$"
-  logoText   = "cd /home"
+  logoText   = "cd /"
 
 [[menu.main]]
   identifier = "posts"
@@ -51,7 +53,7 @@ copyright = "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=
   url  = "https://tryhackme.com/p/suksit"
 
 [params.footer]
-  trademark = 2025
+  trademark = 2026
   rss = true
   copyright = true
   author = true
