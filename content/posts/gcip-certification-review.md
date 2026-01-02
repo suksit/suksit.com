@@ -2,7 +2,7 @@
 title: "GCIP Certification Review"
 date: 2025-12-26T09:19:35+07:00
 draft: false
-toc: false
+toc: true
 images:
 tags:
   - sans
