@@ -5,12 +5,12 @@ draft: false
 toc: false
 images:
 tags:
-  - ot security, oti impact score, s4x26
+  - cybersecurity, operational technology, oti impact score, s4x26
 ---
 
 ในงาน [S4x26](https://s4xevents.com/) ที่ผ่านมา มีการนำเสนอแนวคิดในการระบุระดับผลกระทบของ OT cyber incident โดยใช้หลักการเดียวกับการระบุระดับความรุนแรงของแผ่นดินไหว (Richter Scale) เป็นสเกลตั้งแต่ 0.0-10.0
 
-ไอเดียนี้เรียกว่า [Operational Technology Incident (OTI) Impact Score](https://impact.icsadvisoryproject.com/) มีเป้าหมายคือเพื่อระบุระดับความรุนแรงของ incident แบบคร่าวๆ และรวดเร็ว ภายในเวลา 12 ชั่วโมงหลังเกิดเหตุการณ์
+โมเดลนี้เรียกว่า [Operational Technology Incident (OTI) Impact Score](https://impact.icsadvisoryproject.com/) มีเป้าหมายคือเพื่อระบุระดับความรุนแรงของ incident แบบคร่าวๆ และรวดเร็ว ภายในเวลา 12 ชั่วโมงหลังเกิดเหตุการณ์
 
 กลุ่มเป้าหมายสำหรับข้อมูลชุดนี้คือ สื่อมวลชน และผู้บริหารระดับสูง เพื่อให้เห็นภาพรวมของระดับความรุนแรงของผลกระทบ และนำไปสื่อสารต่อประชาชน หรือตัดสินใจในการดำเนินการได้อย่างสมเหตุสมผล
 
@@ -41,3 +41,9 @@ tags:
 เวลาเอาไปใช้จริง จะใช้การโหวตจาก OT security practitioners อย่างน้อย 20 คน เพื่อป้องกัน bias ของบุคคล หรือของ sector โดย impact score สามารถปรับเปลี่ยนไปได้ตามเวลา หรือเมื่อมีข้อมูลเกี่ยวกับ incident นั้นๆ เพิ่มเติมทีหลัง
 
 ทั้งนี้การระบุ impact ของหน่วยงาน critical infrastructure ไม่ควรอ้างอิง scale นี้เป็นหลัก แต่ควรพิจารณาร่วมกับ regulator หรือ sectoral ISAC/CERT และผู้ที่เกี่ยวข้อง ตามที่ดำเนินการกันเป็นปกติอยู่แล้ว
+
+### References
+
+* [S4x26: New OTI Impact Score debuts to rate real-world damage from industrial cyberattacks](https://industrialcyber.co/industrial-cyber-attacks/s4x26-new-oti-impact-score-debuts-to-rate-real-world-damage-from-industrial-cyberattacks/)
+* ['Richter Scale' Model Measures Magnitude of OT Cyber Incidents](https://www.darkreading.com/ics-ot-security/richter-scale-model-measures-cyber-incidents)
+* [OTI Impact Score Portal](http://impact.icsadvisoryproject.com/)
