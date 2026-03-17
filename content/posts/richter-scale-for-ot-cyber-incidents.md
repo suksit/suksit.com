@@ -8,7 +8,7 @@ tags:
   - ot security, oti impact score, s4x26
 ---
 
-ในงาน S4x26 ที่ผ่านมา มีการนำเสนอแนวคิดในการระบุระดับผลกระทบของ OT cyber incident โดยใช้หลักการเดียวกับการระบุระดับความรุนแรงของแผ่นดินไหว (Richter Scale) เป็นสเกลตั้งแต่ 0.0-10.0
+ในงาน [S4x26](https://s4xevents.com/) ที่ผ่านมา มีการนำเสนอแนวคิดในการระบุระดับผลกระทบของ OT cyber incident โดยใช้หลักการเดียวกับการระบุระดับความรุนแรงของแผ่นดินไหว (Richter Scale) เป็นสเกลตั้งแต่ 0.0-10.0
 
 ไอเดียนี้เรียกว่า [Operational Technology Incident (OTI) Impact Score](https://impact.icsadvisoryproject.com/) มีเป้าหมายคือเพื่อระบุระดับความรุนแรงของ incident แบบคร่าวๆ และรวดเร็ว ภายในเวลา 12 ชั่วโมงหลังเกิดเหตุการณ์
 
