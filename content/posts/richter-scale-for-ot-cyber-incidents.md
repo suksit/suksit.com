@@ -46,4 +46,5 @@ tags:
 
 * [S4x26: New OTI Impact Score debuts to rate real-world damage from industrial cyberattacks](https://industrialcyber.co/industrial-cyber-attacks/s4x26-new-oti-impact-score-debuts-to-rate-real-world-damage-from-industrial-cyberattacks/)
 * ['Richter Scale' Model Measures Magnitude of OT Cyber Incidents](https://www.darkreading.com/ics-ot-security/richter-scale-model-measures-cyber-incidents)
+* [Reducing OT Incident Impact Inflation](https://dale-peterson.com/2026/03/16/reducing-ot-incident-impact-inflation/)
 * [OTI Impact Score Portal](http://impact.icsadvisoryproject.com/)
