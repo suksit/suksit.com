@@ -91,7 +91,7 @@ tags:
 
 เอาไว้ค้นหาคำสั่งที่เคยพิมพ์ไปแล้ว จริงๆ zsh ใน Kali ก็มี auto suggestion อยู่ แต่มันจะแนะนำแค่คำสั่งล่าสุดที่ใช้ ถ้าต้องการหาคำสั่งย้อนหลัง ผมว่า fzf ช่วยได้เยอะ สำหรับผมรู้สึกว่าเร็วกว่าไปเปิด cheatsheet พอสมควร 🙃
 
-### [Sysreptor](https://github.com/Syslifters/sysreptor)
+### [SysReptor](https://github.com/Syslifters/sysreptor)
 
 เอาไว้เขียน penetration testing report ด้วย Markdown พร้อมสร้าง PDF หน้าตาสวยงาม ใช้แล้วชีวิตดีกว่าการนั่งพิมพ์ใน Microsoft Word มากมาย มีทั้งเวอร์ชันที่รันแบบ local หรือ on cloud และมี [report design สำหรับ OffSec Exam](https://github.com/Syslifters/OffSec-Reporting) เตรียมไว้ให้เรียบร้อย
 
