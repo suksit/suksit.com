@@ -76,7 +76,7 @@ tags:
 
 เป็น tools โคตรเทพในการทำงานกับ Python 🤩 ดูตัวอย่างการใช้งานได้ที่[บล็อกของ 0xdf](https://0xdf.gitlab.io/cheatsheets/uv) ผมใช้ฟีเจอร์หลักๆ อยู่ 2 อย่าง คือ
 
-* การติดตั้งและอัปเดต tools ที่พัฒนาด้วย Python เช่น NetExec, Impacket, BloodyAD, ฯลฯ
+* การติดตั้งและอัปเดต tools ที่พัฒนาด้วย Python เช่น NetExec, Impacket, BloodyAD, evil-winrm-py, ฯลฯ
 * การจัดการ dependency และการรัน exploit script ที่เขียนด้วย Python
 
 ### [RustHound-CE](https://github.com/g0h4n/RustHound-CE/)
