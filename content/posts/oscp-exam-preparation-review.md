@@ -30,7 +30,7 @@ tags:
 
 แพลตฟอร์มอื่นๆ ที่ผมใช้ฝึกเพิ่มเติมนอกจาก Challenge Labs จะมีอยู่ 2 ที่ คือ Proving Grounds และ Hack Smarter โดยรายการเครื่องที่ผมเล่นจะมาจาก 2 แหล่งคือ
 
-* OSCP Machine ที่ทางทีม Secure-D คัดเลือกมาจาก [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview) ของ TjNull อีกที
+* OSCP Machine ที่ทางทีม Secure D คัดเลือกมาจาก [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview) ของ TjNull อีกที
 * [LainKusanagi list of OSCP like machines](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997)
 
 โดยผมเลือกเฉพาะเครื่องที่อยู่ใน Proving Grounds กับ Hack Smarter และไม่ได้เล่นเครื่องที่อยู่ใน HTB เลย เพราะรู้สึกว่าสไตล์โจทย์มันต่างจากของ OffSec 🤔
