@@ -31,7 +31,7 @@ tags:
 
 ## OSCP Course Overview
 
-คอร์สที่ผมเรียนจะเป็น bootcamp 5 วัน สอนโดยทีมงานบริษัท Secure-D โดยมาพร้อม subscription หลักสูตร PEN-200: Penetration Testing with Kali Linux ที่เป็น Course + Cert Bundle มีเวลาเรียน 90 วันหลังจาก activate และต้องลงทะเบียนสอบภายใน 120 วัน หลังจากคอร์สหมดอายุ
+คอร์สที่ผมเรียนจะเป็น bootcamp 5 วัน สอนโดยทีมงานบริษัท Secure D โดยมาพร้อม subscription หลักสูตร [PEN-200: Penetration Testing with Kali Linux](https://www.offsec.com/courses/pen-200/) ที่เป็น Course + Cert Bundle มีเวลาเรียน 90 วันหลังจาก activate และต้องลงทะเบียนสอบภายใน 120 วัน หลังจากคอร์สหมดอายุ
 
 เนื้อหาหลักสูตร PEN-200 มีทั้งหมด 31 โมดูล สอนเรื่องการทดสอบเจาะระบบขั้นพื้นฐาน และมี Challenge Labs ให้เล่น 10 แล็บ ถ้าเรียนครบ 80% (คือเรียนจบทุกโมดูล ยกเว้นที่เกี่ยวกับ AWS) สามารถขอ course completion letter ไปเคลม CPE ได้ 40 CPE
 
