@@ -18,7 +18,7 @@ tags:
 
 บล็อกนี้จะเล่าถึงประสบการณ์การสอบ OSCP ของผม ถ้าต้องการอ่าน[แนวทางการเตรียมตัวสอบ OSCP](/posts/oscp-exam-preparation-review) เข้าไปดูได้ตามลิงก์ครับ
 
-ผมเพิ่งผ่านการสอบ OSCP เมื่อ 4-5 วันก่อน [โดยได้รับทุนจากโครงการ Road to SOCP ของ สกมช.](/posts/my-oscp-journey-with-ncsa) เลยมาจดบันทึกประสบการณ์ไว้เผื่อเป็นประโยชน์กับคนที่กำลังเตรียมตัวสอบ
+ผมเพิ่งผ่านการสอบ OSCP เมื่อ 4-5 วันก่อน [โดยได้รับทุนจากโครงการ Road to OSCP ของ สกมช.](/posts/my-oscp-journey-with-ncsa) เลยมาจดบันทึกประสบการณ์ไว้เผื่อเป็นประโยชน์กับคนที่กำลังเตรียมตัวสอบ
 
 <center>
   <a href="https://credentials.offsec.com/582b52c9-9ee2-4981-a132-7c17fea8e2c0#acc.d2pLA9Cz" target="_blank" style="text-decoration: none;">
