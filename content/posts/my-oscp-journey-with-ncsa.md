@@ -64,8 +64,8 @@ tags:
 * ทำรายงานผลการทดสอบเจาะระบบ (weight 10 คะแนน)
 
 <figure>
-{{<image src="/img/my-oscp-journey-with-ncsa/round-3-participants.jpg" alt="Round 3 Participants" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em; width: 100%;">}}
-<figcaption>ภาพจาก <a href="https://www.facebook.com/share/p/17KPgjnR4e/" target="_blank">Facebook ของ NCSA Thailand</a></figcaption>
+  {{<image src="/img/my-oscp-journey-with-ncsa/round-3-participants.jpg" alt="Round 3 Participants" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 0; width: 100%;">}}
+  <figcaption style="text-align: center;">ภาพจาก <a href="https://www.facebook.com/share/p/17KPgjnR4e/" target="_blank">Facebook NCSA Thailand</a></figcaption>
 </figure>
 
 แน่นอนว่าจุดพีคของรอบนี้อยู่ที่การทดสอบเจาะระบบภายในเวลา 24 ชั่วโมง โดยเริ่มตอนหกโมงเย็นของวันแรก แล้วไปจบที่หกโมงเย็นของวันรุ่งขึ้น
@@ -83,8 +83,8 @@ tags:
 สิ่งหนึ่งที่ผมประทับใจมากคือ [อ.เข้ Ammarit Thongthua](https://www.linkedin.com/in/ammarit-thongthua-a2aa18a1/) ที่เป็นวิทยากรมาตั้งแต่รอบที่ 1 ยอมอดนอนเพื่ออยู่โต้รุ่งด้วยกัน และคอยให้กำลังใจคนที่กำลังสอบอยู่ ตั้งแต่เริ่มสอบตอนหกโมงเย็นวันนั้น จนถึงเกือบหกโมงเย็นของอีกวัน!!! 😱
 
 <figure>
-  <img src="/img/my-oscp-journey-with-ncsa/sleepless-cats.jpg" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em; width: 100%;">
-  <figcaption>มีมประจำในกลุ่ม LINE OSCP Pre-Bootcamp</figcaption>
+  <img src="/img/my-oscp-journey-with-ncsa/sleepless-cats.jpg" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 0; width: 100%;">
+  <figcaption style="text-align: center;">มีมประจำในกลุ่ม LINE OSCP Pre-Bootcamp</figcaption>
 </figure>
 
 สรุปว่าผมสามารถหา flag ได้ครบทั้งหมด และทำรายงานส่งภายในเวลาที่กำหนด และได้รับการพิจารณาให้เป็น 1 ใน 8 คนที่ได้เข้ารอบสุดท้ายต่อไป 😌
@@ -98,8 +98,8 @@ tags:
 โดยส่วนตัวผมไม่มีประเด็นกับการจัดคอร์สแบบนี้ รู้สึกว่ามีคนเรียนเยอะๆ ก็ดี จะได้มีคนช่วยถาม และน่าจะได้ฟังความคิดเห็น / มุมมอง กว้างกว่านั่งเรียนกันแค่ 8 คน
 
 <figure>
-{{<image src="/img/my-oscp-journey-with-ncsa/oscp-bootcamp.jpg" alt="OSCP Bootcamp Poster" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 1.5em; width: 100%;">}}
-<figcaption>ภาพจาก <a href="https://www.facebook.com/share/p/1CWLBiBY6H/" target="_blank">Facebook ของ Secure D Global</a></figcaption>
+  {{<image src="/img/my-oscp-journey-with-ncsa/oscp-bootcamp.jpg" alt="OSCP Bootcamp Poster" position="center" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 0; width: 100%;">}}
+  <figcaption style="text-align: center;">ภาพจาก <a href="https://www.facebook.com/share/p/1CWLBiBY6H/" target="_blank">Facebook Secure D Global</a></figcaption>
 </figure>
 
 > อาจารย์ผู้สอนและ TA ทุกท่านทำหน้าที่ได้ดีมากๆ เอาใจใส่ผู้เข้าอบรม และให้คำแนะนำที่เป็นประโยชน์ในการเรียนและการเตรียมตัวสอบมากครับ
