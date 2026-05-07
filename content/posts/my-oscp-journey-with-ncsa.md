@@ -84,7 +84,7 @@ tags:
 
 <figure>
   <img src="/img/my-oscp-journey-with-ncsa/sleepless-cats.jpg" style="box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2); margin-bottom: 0; width: 100%;">
-  <figcaption style="text-align: center;">มีมประจำ ในกลุ่ม LINE OSCP Pre-Bootcamp</figcaption>
+  <figcaption style="text-align: center;">มีมประจำกลุ่ม LINE OSCP Pre-Bootcamp</figcaption>
 </figure>
 
 ผมใช้เวลาไปประมาณ 15 ชั่วโมง ในการทดสอบเจาะระบบเครื่องใน Proving Grounds ทั้งหมด 8 เครื่อง และหา flag ได้ครบทั้ง 15 flag จากนั้นใช้เวลาที่เหลือทำรายงานอีกประมาณ 60 หน้า ส่งภายในเวลาที่กำหนด และได้รับการพิจารณาให้เป็น 1 ใน 8 คนที่ได้เข้ารอบสุดท้ายต่อไป 😌
