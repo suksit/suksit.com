@@ -11,7 +11,7 @@ img.circle {
 
 code[class*="language-"],
 pre[class*="language-"] {
-  font-size: .9em;
+  font-size: 90%;
 }
 
 .post-content ul > li,
@@ -29,4 +29,12 @@ cite {
 
 h3.review-heading {
   margin-bottom: 6px;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+  background-color: #f1f1f1;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 90%;
 }
