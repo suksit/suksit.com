@@ -6,6 +6,7 @@ toc: true
 images:
 tags:
   - ncsa
+  - road to oscp
   - cybersecurity
   - rant
   - certification
