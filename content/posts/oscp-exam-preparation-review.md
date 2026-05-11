@@ -20,7 +20,7 @@ tags:
 
 ## PEN-200 Challenge Labs
 
-สำหรับคอร์ส PEN-200 ของ OffSec ผมเรียนแบบผ่านๆ เน้นเก็บโมดูลให้ครบ เพราะมีพื้นฐานมาแล้วจากการเรียน Penetration Tester Job Role Path ของ HTB และช่วงที่อบรม OSCP Boot Camp 5 วัน ก็เหมือนเป็นการทบทวนไปในตัวด้วย
+สำหรับคอร์ส PEN-200 ของ OffSec ผมเรียนแบบผ่านๆ เน้นเก็บโมดูลให้ครบ เพราะมีพื้นฐานมาแล้วจากการเรียน Penetration Tester Job Role Path ของ HTB และช่วงที่อบรม OSCP Bootcamp 5 วัน ก็เหมือนเป็นการทบทวนไปในตัวด้วย
 
 สิ่งที่ผมคิดว่าสำคัญที่สุดในคอร์ส PEN-200 คือ Challenge Labs ทั้ง 11 แล็บ ที่ช่วยให้เห็นสไตล์การออกโจทย์ของ OffSec โดยเฉพาะ OSCP A, B, C ที่เหมือนเป็นการจำลองการสอบ ถ้าทำทั้ง 3 แล็บนี้ได้ภายในเวลา 24 ชั่วโมง ก็พอจะมั่นใจได้ในระดับนึงว่ามีโอกาสที่จะสอบผ่านสูง
 
@@ -32,12 +32,12 @@ tags:
 
 แพลตฟอร์มอื่นๆ ที่ผมใช้ฝึกเพิ่มเติมนอกจาก Challenge Labs จะมีอยู่ 2 ที่ คือ Proving Grounds และ Hack Smarter โดยรายการเครื่องที่ผมเล่นจะมาจาก 2 แหล่งคือ
 
-* OSCP Machine ที่ทางทีม Secure D คัดเลือกมาจาก [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview) ของ TjNull อีกที
+* OSCP Machine เป็นไฟล์ Excel รายชื่อเครื่องที่ทางทีม Secure D คัดเลือกมาจาก [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview) ของ TjNull อีกที
 * [LainKusanagi list of OSCP like machines](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997)
 
 ผมเลือกเล่นเฉพาะเครื่องที่อยู่ใน Proving Grounds กับ Hack Smarter และไม่ได้เล่นเครื่องที่อยู่ใน HTB เลย เพราะรู้สึกว่าสไตล์โจทย์มันต่างจากของ OffSec ไปหน่อย 🤔
 
-ทั้งสองลิสด์มีเครื่องที่ซ้ำกันอยู่พอสมควร รวมๆ แล้วผมน่าจะเล่นไปประมาณ 120 เครื่อง ในระหว่างที่ทำ Challenge Labs ไปด้วย (คือภายใน 90 วันก่อนคอร์สหมดอายุ) โดยใช้เวลาช่วงกลางคืนหลังเลิกงาน รวมทั้งในวันหยุดเสาร์-อาทิตย์
+ทั้งสองลิสด์มีเครื่องที่ซ้ำกันอยู่พอสมควร รวมๆ แล้วผมน่าจะเล่นไปประมาณ 120 เครื่อง ในระหว่างที่ทำ Challenge Labs ไปด้วย (คืออยู่ในช่วง 90 วันก่อน PEN-200 หมดอายุ) โดยใช้เวลาช่วงกลางคืนหลังเลิกงาน รวมทั้งในวันหยุดเสาร์-อาทิตย์
 
 > ประโยชน์จากการเล่นเครื่องพวกนี้ คือการสร้าง methodology ในการทดสอบเจาะระบบของตัวเอง และการเรียนรู้ท่าใหม่ๆ ที่อาจจะไม่ได้มีสอนในคอร์ส PEN-200 รวมไปถึงฝึกความอดทนในการพยายามเจาะระบบ ที่อาจจะต้องใช้เวลาเครื่องละ 1-3 ชั่วโมง
 
@@ -47,7 +47,7 @@ tags:
 
 > Sometimes you don't know what you don't know.
 
-และจะเริ่มรู้สึกเหมือนมีโหมด autopilot 💀 พอถึงเวลาก็รัน VM ขึ้นมา ต่อ VPN แล้วทำตาม methodology ไปตามลำดับ เพื่อรวบรวมข้อมูลเกี่ยวกับเครื่องนั้นๆ ให้ได้มากที่สุด ก่อนพยายามโจมตีจริงๆ
+และจะเริ่มรู้สึกเหมือนอยู่ในโหมด autopilot 💀 พอถึงเวลาก็รัน VM ขึ้นมา ต่อ VPN แล้วทำตาม methodology ไปตามลำดับ เพื่อรวบรวมข้อมูลเกี่ยวกับเครื่องนั้นๆ ให้ได้มากที่สุด ก่อนพยายามโจมตีจริงๆ
 
 ถ้าเจอ service / port / config อะไรแปลกๆ หรือไม่คุ้นเคย ก็ google เอา หรือลองหาใน [HackTricks](https://hacktricks.wiki/) อะไรทำนองนี้ แต่ถ้าหาแล้วยังไปต่อไม่ถูก ก็ใช้ไม้ตาย เปิด walkthrough 😝 ดูแบบแง้มๆ ว่ามันไปต่อทางไหน แล้วก็ลองงมต่อเอง
 
@@ -57,7 +57,7 @@ tags:
 
 อีกสิ่งหนึ่งที่ผมคิดว่าสำคัญไม่น้อยกว่า methodology, knowledge และ technical skills คือ mindset ที่ควรจะมีตอนสอบ OSCP
 
-วิธีสร้าง mindset ของผมคือการอ่าน success/failure story ของคนสอบ OSCP หลายๆ คน รวมถึง comment ในโพสต์นั้นๆ (ส่วนใหญ่จะมีคนมาเล่าใน Reddit [r/oscp](https://www.reddit.com/r/oscp/)) ถ้าเห็นคำเแนะนำอันไหนเข้าท่าก็จำไว้ เช่น
+วิธีสร้าง mindset ของผมคือการอ่าน success/failure story ของคนสอบ OSCP หลายๆ คน รวมถึง comment ในโพสต์นั้นๆ โดยปกติจะมีคนมาเล่าใน Reddit [r/oscp](https://www.reddit.com/r/oscp/) เกือบทุกวัน ถ้าเห็นคำเแนะนำอันไหนเข้าท่าก็จำไว้ เช่น
 
 * OSCP is an enumeration exam
 * Don't overthink it
@@ -70,7 +70,7 @@ tags:
 
 > The strongest indicator for exam readiness is a change in mindset: boredom, frustration, and desire to see the exam whether pass or fail.
 
-ถ้าอ่าน[โพสต์ก่อนหน้านี้](/posts/oscp-certification-review) จะเห็นว่าผมเลื่อนกำหนดการสอบเข้ามา เหตุผลหลักคือผมเริ่มรู้สึกว่า ถ้าไม่สอบซักที ก็จะไม่สามารถไป focus การทำงานอื่นๆ ต่อได้ เลยต้องสอบให้มันรู้แล้วรู้รอดไป 😫
+ถ้าอ่าน[โพสต์ก่อนหน้านี้](/posts/oscp-certification-review) จะเห็นว่าผมเลื่อนกำหนดการสอบเข้ามา เหตุผลคือผมเริ่มรู้สึกว่า ถ้าไม่สอบซักที ก็จะไม่สามารถไป focus กับการทำงานตามปกติได้ และรู้สึกเหมือนตัวเองอาจจะ burn out เลยต้องรีบสอบให้มันรู้แล้วรู้รอดไป 😫
 
 ## Kali Setup
 
