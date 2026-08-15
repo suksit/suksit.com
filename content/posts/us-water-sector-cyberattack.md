@@ -23,6 +23,7 @@ tags:
 * [US Water Sector OT Security Plan(s)](https://dale-peterson.com/2026/08/07/us-water-sector-ot-security-plans/)
 * [The End of Complacency? (I can hope...)](https://www.linkedin.com/pulse/end-complacency-i-can-hope-andrew-krapf-yxwqe/)
 * [The CyberSecureOT Report: State-Sponsored Threats and the Fragility of Municipal Water](https://www.cybersecureot.info/post/the-cybersecureot-report-state-sponsored-threats-and-the-fragility-of-municipal-water)
+* [Read the Gauge, Not the Screen](https://timroxey.substack.com/p/read-the-gauge-not-the-screen)
 
 เท่าที่อ่านแบบผ่านๆ หลายคนพูดคล้ายกันว่าต้องมี regulation ที่กำหนด security baseline สำหรับ sector แต่ก็ควรกำหนดระดับความเข้มข้นของ controls ให้เหมาะสมกับระดับผลกระทบที่มีต่อประชาชนของแต่ละหน่วยงานด้วย
 
@@ -32,4 +33,7 @@ tags:
 * ไม่เอา PLC หรืออุปกรณ์ระบบ OT เชื่อมต่อเข้าอินเทอร์เน็ตโดยตรง
 * ไม่เปิด ports หรือ services ที่ไม่จำเป็น
 * เปลี่ยน default password ของอุปกรณ์
+* physical switch ที่บล็อกการแก้ไข code/firmware
+* offline backup
+* manual operating mode ที่ทำงานร่วมกับ local indicator (ไม่ใช่ดูจากหน้าจอ HMI อย่างเดียว)
 * ฯลฯ
